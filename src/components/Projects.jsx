@@ -31,14 +31,14 @@ export default function Projects() {
     {
       title: 'YouTube to LinkedIn Post Generator',
       date: 'March 2026',
-      desc: 'AI-powered content repurposing app that converts YouTube videos into engagement-focused LinkedIn posts.',
+      desc: 'AI-powered content repurposing app that transforms YouTube videos into polished, engagement-focused LinkedIn posts in seconds.',
       bullets: [
-        'Extracts YouTube transcripts and processes them through OpenAI\'s LLM models.',
-        'Streamlined tone selection and post formatting in a single automated pipeline.',
-        'Developed an interactive Streamlit-based frontend for fast input/output workflows.',
-        'Reduced manual content creation times from over 30 minutes to under 30 seconds.'
+        'Built a LangChain-powered pipeline that extracts transcripts and generates concise, plain-text LinkedIn content.',
+        'Designed and tuned prompt chains for tone control, source attribution, and consistent post formatting.',
+        'Developed a Streamlit frontend with tone selection and one-click post generation for a fast input/output workflow.',
+        'Reduced manual repurposing time from 30+ minutes to under 30 seconds through end-to-end automation.'
       ],
-      tech: ['Python', 'OpenAI SDK', 'youtube-transcript-api', 'yt-dlp', 'Streamlit'],
+      tech: ['Python', 'LangChain', 'OpenAI Python SDK', 'youtube-transcript-api', 'yt-dlp', 'Streamlit'],
       githubLink: 'https://github.com/ibrahimmlk'
     }
   ];

@@ -83,10 +83,6 @@ section {
   justify-content: center;
 }
 
-main {
-  padding-top: 70px;
-}
-
 /* Typography */
 h1, h2, h3, h4 {
   font-family: var(--font-sans);
